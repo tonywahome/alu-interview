@@ -3,6 +3,8 @@
 
 
 def rain(walls):
+    """calculate how much water will be retained after raining"""
+
     if not walls or len(walls) < 3:
         return 0
     water = 0
