@@ -8,7 +8,7 @@ def rain(walls):
     if not walls or len(walls) < 3:
         return 0
     water = 0
-    fir i in range(1, len(walls) - 1):
+    for i in range(1, len(walls) - 1):
         left = walls[i]
         for j in range(i)
         left = max(left, walls[j])
